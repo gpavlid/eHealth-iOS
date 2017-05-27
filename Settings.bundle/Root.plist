@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>StringsTable</key>
+	<string>Root</string>
+	<key>PreferenceSpecifiers</key>
+	<array>
+		<dict>
+			<key>Type</key>
+			<string>PSGroupSpecifier</string>
+			<key>Title</key>
+			<string>i-Health Server</string>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSTextFieldSpecifier</string>
+			<key>KeyboardType</key>
+			<string>URL</string>
+			<key>Title</key>
+			<string>Server URL</string>
+			<key>Key</key>
+			<string>serverURL</string>
+			<key>DefaultValue</key>
+			<string>http://ihealth.sepdek.net</string>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSMultiValueSpecifier</string>
+			<key>Title</key>
+			<string>Server Timeout</string>
+			<key>Key</key>
+			<string>serverTimeout</string>
+			<key>DefaultValue</key>
+			<integer>10</integer>
+			<key>Titles</key>
+			<array>
+				<string>1 sec</string>
+				<string>5 sec</string>
+				<string>10 sec</string>
+				<string>15 sec</string>
+				<string>20 sec</string>
+				<string>30 sec</string>
+				<string>40 sec</string>
+				<string>50 sec</string>
+				<string>60 sec</string>
+			</array>
+			<key>Values</key>
+			<array>
+				<integer>1</integer>
+				<integer>5</integer>
+				<integer>10</integer>
+				<integer>15</integer>
+				<integer>20</integer>
+				<integer>30</integer>
+				<integer>40</integer>
+				<integer>50</integer>
+				<integer>60</integer>
+			</array>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSToggleSwitchSpecifier</string>
+			<key>Title</key>
+			<string>Server Timestamp</string>
+			<key>Key</key>
+			<string>serverTimestamp</string>
+			<key>DefaultValue</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSGroupSpecifier</string>
+			<key>Title</key>
+			<string>i-Health app</string>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSMultiValueSpecifier</string>
+			<key>Title</key>
+			<string>Refresh Rate</string>
+			<key>Key</key>
+			<string>refreshInterval</string>
+			<key>DefaultValue</key>
+			<integer>500</integer>
+			<key>Titles</key>
+			<array>
+				<string>1 msec</string>
+				<string>10 msec</string>
+				<string>100 msec</string>
+				<string>500 msec</string>
+				<string>1 sec</string>
+				<string>5 sec</string>
+				<string>10 sec</string>
+			</array>
+			<key>Values</key>
+			<array>
+				<integer>1</integer>
+				<integer>10</integer>
+				<integer>100</integer>
+				<integer>500</integer>
+				<integer>1000</integer>
+				<integer>5000</integer>
+				<integer>10000</integer>
+			</array>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSMultiValueSpecifier</string>
+			<key>Title</key>
+			<string>History Period</string>
+			<key>Key</key>
+			<string>historyPeriod</string>
+			<key>DefaultValue</key>
+			<integer>-1</integer>
+			<key>Titles</key>
+			<array>
+				<string>No history</string>
+				<string>Daily</string>
+				<string>Weekly</string>
+				<string>Monthly</string>
+				<string>Yearly</string>
+				<string>Forever</string>
+			</array>
+			<key>Values</key>
+			<array>
+				<integer>-1</integer>
+				<integer>1</integer>
+				<integer>7</integer>
+				<integer>30</integer>
+				<integer>365</integer>
+				<integer>0</integer>
+			</array>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSGroupSpecifier</string>
+			<key>Title</key>
+			<string>About</string>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSChildPaneSpecifier</string>
+			<key>Title</key>
+			<string>About</string>
+			<key>File</key>
+			<string>About</string>
+		</dict>
+	</array>
+</dict>
+</plist>
