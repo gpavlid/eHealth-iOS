@@ -1,0 +1,9 @@
+This is a complete XCode project for an iOS app that is able to connect to a web server and fetch and display Health data
+
+This version of the app has already been published on the App Store @ https://itunes.apple.com/us/app/i-health/id928539620
+*** the developer account is currently suspended, so you might not be able to find the app on the Store ***
+
+There is a test server publising random (somehow realistic) JSON encoded data @ http://ihealth.sepdek.net 
+
+The project is compatible with the ‘e-Health sensor platform kit’ 
+    by Cooking Hacks @ https://www.cooking-hacks.com/ehealth-sensors-complete-kit-biometric-medical-arduino-raspberry-pi
